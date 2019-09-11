@@ -1,0 +1,32 @@
+.logo img {
+  height: 40px;
+}
+nav {
+  padding: 16px;
+}
+button img {
+  height: 16px;
+}
+.btn-template-color {
+  background: #ae4a84;
+  border: solid 1px #ae4a84;
+}
+ul.nav.navbar-nav li.sell {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline-block !important;
+}
+
+li.sell {
+  border-radius: 2px;
+  border: none;
+  height: 34px;
+  background: #ae4a84;
+}
+.sell a {
+  margin: 0 !important;
+  height: 40px;
+  align-items: center; /*Vertical align*/
+  top: -8px;
+  color: #fff;
+}
