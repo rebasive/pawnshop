@@ -30,3 +30,50 @@ li.sell {
   top: -8px;
   color: #fff;
 }
+.banner-inner {
+  background: #eee;
+  height: 360px;
+  margin: 40px 0;
+}
+a.list-group-item {
+  border: none;
+  background: #eee;
+}
+
+a.list-group-item.active {
+  background-color: #ae4a84;
+  border-color: #de63aa;
+  color: #fff;
+}
+.list-group-item.active .list-group-item-text,
+.list-group-item.active:focus .list-group-item-text,
+.list-group-item.active:hover .list-group-item-text {
+  color: #fff;
+}
+a.list-group-item:hover,
+a.list-group-item:focus,
+a.list-group-item:active {
+  background: #ddd !important;
+}
+.card {
+  box-shadow: 1px 1px 14px 0px rgba(46, 61, 73, 0.18);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  background: #eee;
+  width: 90%;
+  margin: 20px 0;
+}
+
+.product-image {
+  height: 160px;
+}
+.product-description {
+  background: #fff;
+  height: 64px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.card:hover {
+  box-shadow: 2px 4px 8px 0px rgba(46, 61, 73, 0.18);
+}
