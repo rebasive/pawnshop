@@ -133,11 +133,13 @@ li.sell:focus {
   padding: 8px 16px;
   color: #fff;
   border-radius: 3px;
+  margin-bottom: 8px;
 }
 .btn-form:hover {
   background: #944071;
 }
 small.legal-info {
+  margin-bottom: 32px;
   display: block;
   margin-top: 8px;
   color: #676767;
@@ -174,4 +176,74 @@ button.btn-template-color-inverse:hover {
   margin: 4px 0;
   padding: 6px 12px;
   color: #555;
+}
+.legal-taglines {
+  display: block;
+  position: absolute;
+  bottom: -32px;
+  width: 100%;
+  margin: 0;
+  text-align: right;
+  right: 0;
+}
+
+.legal-taglines a {
+  color: #999;
+  margin-left: 20px;
+}
+hr {
+  margin: 32px 10% !important;
+  border: 1px solid #eee !important;
+  width: 80%;
+}
+
+.oauth-btn {
+  background: #fff !important;
+  width: 240px;
+  text-align: left;
+  margin-bottom: 16px;
+  padding: 12px 48px;
+  box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.08), 0 1px 4px rgba(0, 0, 0, 0.12);
+  border: transparent;
+  border-radius: 4px;
+  color: #777;
+  transition: all 0.3s ease;
+}
+.oauth-btn:hover {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08),
+    0 1px 4px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+.oauth-btn-group img {
+  position: relative;
+  left: 35px;
+  height: 18px;
+  top: -2px;
+}
+.oauth-btn-group {
+  display: inline-block;
+  margin: 0 2px;
+}
+li.sell a:hover,
+li.sell a:focus,
+li.sell a:active {
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .form-area {
+    background: #ffffff;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .form-area {
+    background: #ffffff;
+    width: 94%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .oauth-btn-group {
+    width: 100%;
+    margin: 0;
+  }
 }
